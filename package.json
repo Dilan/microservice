@@ -1,0 +1,27 @@
+{
+    "name": "microservice",
+    "version": "0.0.1",
+    "main": "app.js",
+    "dependencies": {
+        "request": "~2.39.x",
+        "lodash": "~2.4.x",
+        "mongoose": "3.8.15",
+        "express": "~4.7.x",
+        "body-parser": "~1.5.x",
+        "when": "~3.6.x"
+    },
+    "devDependencies": {
+        "mocha": "~1.21.x",
+        "sinon": "~1.10.x",
+        "should": "~4.0.x",
+        "supertest": "~0.13.x",
+        "grunt": "~0.4.x",
+        "grunt-cli": "~0.1.x",
+        "grunt-mocha-test": "~0.9.x",
+        "grunt-jscs-checker": "~0.4.3",
+        "grunt-contrib-jshint": "~0.10.x"
+    },
+    "scripts": {
+        "test": "./node_modules/grunt-cli/bin/grunt test"
+    }
+}
